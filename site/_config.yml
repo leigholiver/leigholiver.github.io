@@ -1,0 +1,14 @@
+title: Leigh Oliver
+description: Software developer and DevOps engineer
+
+baseurl: "/"
+url: "https://leigholiver.github.io"
+google_analytics: UA-180824262-1
+email: leigh@leigholiver.com
+github_username: leigholiver
+twitter_username: _leigholiver
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-timeago

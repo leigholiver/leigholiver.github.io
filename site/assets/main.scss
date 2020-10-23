@@ -1,0 +1,10 @@
+---
+---
+
+@import "minima";
+
+.social-media-list {
+    li + li {
+      padding-top: 10px;
+    }
+  }

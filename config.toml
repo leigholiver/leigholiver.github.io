@@ -1,0 +1,45 @@
+baseURL = "https://leigholiver.com"
+languageCode = "en-us"
+theme = "anatole"
+googleAnalytics = "UA-180824262-1"
+
+[params]
+title = "Leigh Oliver"
+author = "Leigh Oliver"
+profilePicture = "images/profile.png"
+
+description = '''
+Software developer and DevOps Engineer
+'''
+
+doNotLoadAnimations = true
+customCss = ["css.css"]
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/leigholiver"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/leigholiver_"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:leigh@leigholiver.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"

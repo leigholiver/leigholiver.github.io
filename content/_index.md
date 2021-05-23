@@ -2,6 +2,6 @@
 author = "Leigh Oliver"
 +++
 
-### **Hi, I’m Leigh, a software developer and DevOps engineer**
+# Hi, I’m Leigh
 
----
+## A DevOps engineer and Software Developer from the UK

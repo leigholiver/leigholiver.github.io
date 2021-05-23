@@ -1,45 +1,31 @@
-baseURL = "https://leigholiver.com"
-languageCode = "en-us"
-theme = "anatole"
-googleAnalytics = "UA-180824262-1"
-
-[params]
 title = "Leigh Oliver"
-author = "Leigh Oliver"
-profilePicture = "images/profile.png"
+baseURL = "https://leigholiver.com"
+languageCode = "en-gb"
+theme = "bulb"
 
-description = '''
-Software developer and DevOps Engineer
-'''
+[Params]
+sidebar_image = "/images/profile.png"
+sidebar_text = "DevOps Engineer and Software Developer"
+google_analytics = "UA-180824262-1"
+# footer_text = "A erat nam at lectus urna duis. Sed velit dignissim sodales ut eu sem."
 
-doNotLoadAnimations = true
-customCss = ["css.css"]
-
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/leigholiver"
-
-[[params.socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/leigholiver_"
-
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:leigh@leigholiver.com"
+[[Params.socials]]
+    icon = "github-square"
+    url = "https://github.com/leigholiver"
+[[Params.socials]]
+    icon = "twitter-square"
+    url = "https://twitter.com/leigholiver_"
 
 [menu]
-
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
+    name = "Home"
+    url = "/"
+    weight = 1
   [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/posts/"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3

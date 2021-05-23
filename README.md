@@ -1,14 +1,17 @@
 # leigholiver.github.io
 
-[![Deploy](https://github.com/leigholiver/leigholiver.github.io/workflows/deploy%20to%20github%20pages/badge.svg)](https://github.com/leigholiver/leigholiver.github.io/actions)
+[![Deploy](https://github.com/leigholiver/leigholiver.github.io/workflows/Deploy/badge.svg)](https://github.com/leigholiver/leigholiver.github.io/actions)
 
-my personal site, using Hugo and the anatole theme
+My [personal site](https://leigholiver.com), using Hugo and the [Bulb](https://github.com/leigholiver/bulb) theme.
 
-built by github actions and deployed to github pages
+Built by GitHub Actions, and deployed to GitHub Pages
 
 
-### Dev site
+## Installation
 * Install [Hugo v0.81.0](https://github.com/gohugoio/hugo/releases/tag/v0.81.0)
 * Run the Hugo dev server with `hugo server -D`
 * The dev site is available at [`http://localhost:1313/`](http://localhost:1313/)
-* Create a new post with `hugo new posts/<filename>.md`
+
+## Usage
+* Create a new post by running `hugo new posts/<filename>.md`
+* Commit the post, and GitHub Actions will update the site

@@ -1,5 +1,0 @@
-/* remove uppercase h3s */
-.sidebar .logo-title .title h3,
-.post .post-title h3 {
-	text-transform: none;
-}

@@ -76,4 +76,4 @@ events=PROCESS_STATE_FATAL
 command=sh -c "printf 'READY\n' && while read line; do kill -SIGQUIT $PPID; done < /dev/stdin"
 ```
 
-I've posted an expanded version of this configuration [on my GitHub](github.com/leigholiver/supervisord-config), which can be easily customised and used in your images if you find this helpful.
+I've posted an expanded version of this configuration [on my GitHub](https://github.com/leigholiver/supervisord-config), which can be easily customised and used in your images if you find this helpful.

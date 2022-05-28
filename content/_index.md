@@ -3,8 +3,7 @@ author = "Leigh Oliver"
 +++
 
 # Hi, I’m Leigh
-
-## A Cloud/DevOps/Software engineer from the UK
+I'm currently employed as a Platform Engineer but I've worn a few hats in DevOps and Software Development.
 
 In my day-to-day I'm usually:
 - Helping developers deploy features faster, with less friction

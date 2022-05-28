@@ -4,11 +4,10 @@ languageCode = "en-gb"
 theme = "bulb"
 
 [Params]
-sidebar_image = "/images/profile.jpeg"
-sidebar_text = "Cloud/DevOps/Software engineer"
+sidebar_image = "/images/profile.webp"
+# sidebar_text = "Platform Engineer"
 sidebar_image_credit = "Photo: Bethany Lock"
 google_analytics = "UA-180824262-1"
-# footer_text = "A erat nam at lectus urna duis. Sed velit dignissim sodales ut eu sem."
 
 [[Params.socials]]
     icon = "twitter-square"
@@ -33,3 +32,17 @@ google_analytics = "UA-180824262-1"
     name = "Tags"
     url = "/tags/"
     weight = 3
+
+[Params.theme.light]
+text = ""
+bg = ""
+bg_alt = ""
+interactive = ""
+focus = ""
+
+[Params.theme.dark]
+text = ""
+bg = ""
+bg_alt = ""
+interactive = ""
+focus = ""
